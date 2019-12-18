@@ -5,11 +5,11 @@ Vue.use(Vuex);
 
 export default new Vuex.Store({
     state: {
-        users: [],
+        comments: [],
     },
     mutations: {
-        setUsers: (state, data) => {
-            state.users = data
+        setComments: (state, data) => {
+            state.comments = data
         }
     },
 })
