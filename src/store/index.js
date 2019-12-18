@@ -10,6 +10,9 @@ export default new Vuex.Store({
     mutations: {
         setComments: (state, data) => {
             state.comments = data
+        },
+        addComment: (state, data) => {
+            state.comments = [...state.comments, data]
         }
     },
 })
